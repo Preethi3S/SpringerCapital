@@ -9,11 +9,11 @@ interface InputProps {
 const Input: React.FC<InputProps> = ({ value, onChange, placeholder }) => {
   return (
     <input
-      className="border rounded p-2 w-full"
       type="text"
       value={value}
       placeholder={placeholder}
       onChange={(e) => onChange(e.target.value)}
+      className="border rounded p-2 w-full"
     />
   )
 }

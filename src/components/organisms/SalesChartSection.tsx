@@ -1,3 +1,5 @@
+'use client'
+
 import React, { useState } from 'react'
 import ChartCard from '@/components/molecules/ChartCard'
 import { salesData, SalesData } from '@/utils/mockData'
